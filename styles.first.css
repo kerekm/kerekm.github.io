@@ -1,0 +1,15 @@
+html{
+    background: rgb(236, 243, 228);
+} 
+h1{
+    color:lightpink;
+    background: white;
+    margin:20px;
+    padding: 10px;
+    border:2px solid grey;
+    font-size: 24px;
+}
+img{
+width:100px;
+height: 100px;
+}

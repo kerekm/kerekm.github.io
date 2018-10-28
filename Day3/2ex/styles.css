@@ -1,0 +1,33 @@
+.item {
+    color: white;
+    text-align: center;
+    height:120px;
+    width:350px;
+    padding:20px;
+    font-size:40px;
+    font-weight:normal;
+}
+
+.martin {
+    border: 8px solid BLUE;
+    width:390px;
+}
+
+.north{
+margin-bottom: 0;
+background:rgb(247, 140, 140);
+}
+.east{
+margin-block-start:0; 
+margin-block-end:0;   
+background:rgb(247, 247, 155);
+}
+.south{
+margin-block-start:0; 
+margin-block-end:0;    
+background: lightcyan;
+}
+.west{
+margin-block-start:0;       
+background:lightblue;
+}

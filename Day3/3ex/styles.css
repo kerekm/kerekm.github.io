@@ -1,0 +1,20 @@
+.martin {
+    border: 15px solid lightseagreen;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: normal;
+    margin: 4px;
+}
+
+.box1 {
+    background: pink;
+}
+
+.box2 {
+    background: lightskyblue;
+}
+
+.item {
+    padding: 40px;
+}
