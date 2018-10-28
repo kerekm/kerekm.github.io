@@ -1,23 +1,44 @@
 <html>
-    <head>
-            <link rel="stylesheet" href="styles.css">
-    </head>
 
-    <body>
-<header>
-     <div class="Header">The Blog</div>
-</header>
-<h1 class="martin">Add new post</h1>
-<form>
-    Title<br>
-    <input type ="text" value="Test of Title"><br>
-    Content<br>
-    <textarea rows="6" cols="50">dfsasfsfsdafdsfsa<br>sfasdfsdfasdfasdasdfas<br>fasdfasdfasfasdfsaddfs
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="Header">The Blog</div>
+    </header>
+    <h1 class="martin">Add new post</h1>
+    <form>
+        Title<br>
+        <input type="text" value="Test of Title"><br>
+        Content<br>
+        <textarea rows="6" cols="50">dfsasfsfsdafdsfsa<br>sfasdfsdfasdfasdasdfas<br>fasdfasdfasfasdfsaddfs
     </textarea><br>
-    <br>
-    <input type="submit" value="Submit">
-</form>
-<h2 class="martin">Posts</h2>
-    </body>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2 class="martin">Posts</h2>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBfFYpdwnVc02RHn6CFdqa2ChdDBEN9CTc",
+            authDomain: "blogmartinkerek.firebaseapp.com",
+            databaseURL: "https://blogmartinkerek.firebaseio.com",
+            projectId: "blogmartinkerek",
+            storageBucket: "blogmartinkerek.appspot.com",
+            messagingSenderId: "39807505557"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    <!--Here go all the script tags-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
 
 </html>
